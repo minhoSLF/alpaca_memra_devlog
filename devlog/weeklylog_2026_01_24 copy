@@ -1,0 +1,52 @@
+
+## Monday (2026-01-26)
+
+0. **Step 1 (말씀 데이터 구조)** - 기초
+1. **Step 2 (날짜 기반 선택)** - 핵심 기능
+2. **Step 3 (새로고침 제한)** - 핵심 기능
+3. **Step 4 (즐겨찾기)** - 중요 기능
+4. **Step 5 (공유)** - 간단한 기능
+5. **Step 6 (카테고리)** - 선택 기능
+6. **Step 7 (알림)** - 복잡한 기능 (마지막에)
+7. **Step 8 (UI 개선)** - 마무리
+
+- v1.1.0 app 
+- Step 8 Phase 1, 2 finished (name & icon)
+- Phase 3, 4 remaining (UI polish & build)
+- Phase 5 remaining (iteration needed for step 3, 6, 7)
+
+
+### 작업 내용
+1. 앱 이름 변경
+   - Android: `AndroidManifest.xml` → `android:label="메므라"`
+   - iOS: `Info.plist` → `CFBundleDisplayName="메므라"`
+   
+2. 앱 아이콘 생성 및 적용
+   - GPT로 커스텀 아이콘 디자인 (파란-보라 그라데이션, 성경책+십자가)
+   - `assets/icon.png` 저장
+   - `pubspec.yaml`에 `flutter_launcher_icons` 설정 추가
+   - `flutter pub run flutter_launcher_icons` 실행
+   - Android adaptive icon (배경 #5B6FD8) + 모든 density 자동 생성
+   - iOS 모든 크기 (20x20 ~ 1024x1024) 자동 생성
+   - 총 40개 파일 자동 생성
+
+3. Android 권한 오타 수정
+   - `POST NOTIFICATIONS` → `POST_NOTIFICATIONS`
+   - `SCHEDULE_EXAT_ALARM` → `SCHEDULE_EXACT_ALARM`
+
+## 문제
+
+
+## 시도
+
+
+## 원인
+
+
+## 해결
+
+
+## 배운 점
+- android 및 ios 앱 이름, playstore 앱 이름 구분, 작성 방법
+- Android 권한명 오타 주의 (`POST_NOTIFICATIONS`, `SCHEDULE_EXACT_ALARM`)
+- `flutter_launcher_icons`로 40개 크기 아이콘 자동 생성 가능
