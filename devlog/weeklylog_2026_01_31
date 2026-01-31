@@ -1,0 +1,69 @@
+## Friday (2026-01-31)
+
+0. **Core Features Completed**
+1. **UI Polish Phase (Step 8)** finished
+2. **Store Release Preparation** – in progress
+
+- v1.1.0 (release candidate)
+- All core features implemented
+- UI polish nearly complete
+- Store submission preparation started (privacy policy, developer account)
+
+---
+
+### Current Status
+
+- 말씀 제공 / 날짜 기반 선택 / 새로고침 제한
+- 즐겨찾기, 공유, 카테고리
+- 알림 기능 (권한 분리 및 UX 정리 완료)
+- 앱 전반 UI 리뉴얼 완료 단계 진입
+
+---
+
+### 작업 내용
+
+1. UI Polish 마무리
+   - 버튼 스타일, 여백, 정렬 최종 정리
+   - 화면 간 UI 일관성 점검
+   - 불필요한 시각적 요소 제거
+
+2. 앱 아이덴티티 정리
+   - 앱 이름, 아이콘 확정
+   - 전체 톤 & 무드 통일
+
+3. 출시 준비 작업
+   - 개인정보처리방침 작성 및 공개 URL 구성 (GitHub Pages)
+   - Google Play 조직 계정 가입 진행
+   - 스토어 등록을 위한 메타데이터 정리
+
+---
+
+## 문제
+
+- 스토어 등록 과정에서 조직 계정 요건(D-U-N-S 등)으로 일정 지연 발생
+- 첫 배포 앱이라 정책/검수 기준에 대한 불확실성 존재
+
+---
+
+## 시도
+
+- 개인정보 수집을 최소화한 구조 명확히 문서화
+- 앱 내부 데이터는 로컬 저장만 사용하도록 설계
+- 스토어 요구 사항을 역으로 체크리스트화하여 하나씩 대응
+
+---
+
+## 해결
+
+- 개인정보처리방침을 외부 URL로 제공 (github pages)
+- 개발자 계정 유형을 명확히 구분하여 대응 중
+- 출시 전 단계에서 정책 리스크를 최대한 제거
+
+---
+
+## 배운 점
+
+- “기능 구현”과 “출시”는 완전히 다른 문제
+- 작은 앱이라도 스토어 정책·문서·계정 준비가 중요
+- 초기에 구조를 단순하게 잡아두면 출시 단계에서 훨씬 수월함
+- 승인 기간이 오래걸린다는 점을 참고하여, 미리 개발중에 출시 준비를 해둬야 코드가 완료된 후 즉시 출시 할 수 있다.
